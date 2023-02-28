@@ -1,3 +1,21 @@
+1
+...................
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    double r,t;
+    scanf("%lf",&r);
+    t = 100 / r;
+    printf("%.2lf", t);
+    return 0;
+}
+
+........................
+
 2
 .......................
 #include <stdio.h>
