@@ -125,3 +125,31 @@ int main() {
 }
 
 ..................................
+
+
+8
+
+
+..............
+
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+   int n, year;
+    scanf("%d", &n);
+    for (year = 1; year <= n; year++) {
+        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+            printf("%d ", year);
+        }
+    }
+    
+    return 0;
+}
+
+
+...........................
