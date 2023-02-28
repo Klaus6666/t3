@@ -52,3 +52,29 @@ int main() {
     return 0;
 }
 .............................
+
+
+
+5
+
+
+.............................
+
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int p,r,t,c;
+    scanf("%d",&p);
+    scanf("%d",&r);
+    scanf("%d",&t);
+    c = ((p*r*t)/100)+p;
+    printf("%d", c);
+    return 0;
+}
+
+
+............................
