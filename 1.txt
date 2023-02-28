@@ -11,3 +11,25 @@ int main()
 }
 
 ...........................
+
+
+3
+..................................
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int c , n , d , x;
+    scanf("%d",&c);
+    scanf("%d",&n);
+    scanf("%d",&d);
+    x = ((d*n)+c)-n;
+    printf("%d",x);
+
+
+    return 0;
+}
+
+..............................
