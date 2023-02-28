@@ -102,4 +102,26 @@ int main() {
 }
 
 
-/////////////////////////////////////
+/////////////////////////////////////\
+
+
+
+7
+
+
+................
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int w1, w2, w3, w4, w5;
+    char c1, c2, c3, c4, c5;
+    scanf("%d&%d&%d&%d&%d", &w1, &w2, &w3, &w4, &w5);
+    c1 = (char) w1;c2 = (char) w2;c3 = (char) w3;c4 = (char) w4;c5 = (char) w5;
+    printf("%c%c%c%c%c", c1, c2, c3, c4, c5);    
+    return 0;
+}
+
+..................................
